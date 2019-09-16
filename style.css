@@ -115,17 +115,17 @@ header h2 {
 
 .rainbow-letters span:nth-child(10n + 6),
 .light-blue {
-    color: #8be9fd;
+    color: #ffb86c;
 }
 
 .rainbow-letters span:nth-child(10n + 7),
 .green {
-    color: #50fa7b;
+    color: #f1fa8c;
 }
 
 .rainbow-letters span:nth-child(10n + 8),
 .yellow {
-    color: #f1fa8c;
+    color: #8be9fd;
 }
 
 .rainbow-letters span:nth-child(10n + 9),
@@ -135,7 +135,7 @@ header h2 {
 
 .rainbow-letters span:nth-child(10n + 10),
 .orange {
-    color: #ffb86c;
+    color: #bd93f9;
 }
 
 
