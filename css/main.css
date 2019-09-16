@@ -8,7 +8,7 @@ body {
     background-color: #282a36;
     color: #f8f8f2;
     font-weight: 400;
-    font-family: "myFont";
+    font-family: arial;
 }
 .container {
     max-width:800px;
@@ -73,7 +73,6 @@ header h2 {
 /* Heading rainbow letters */
 .rainbow-letters {
     margin-bottom: 30px;
-    font-family: futura;
 }
 
 .rainbow-letters span {
