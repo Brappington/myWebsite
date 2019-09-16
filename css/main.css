@@ -1,8 +1,9 @@
 
 @font-face {
     font-family: "myFont";
-    src: url(./fonts/Inter/inter-Regular.woff);
+    src: url(fonts/Inter/Inter-Regular.woff);
 }
+
 body {
     background-color: #282a36;
     color: #f8f8f2;
