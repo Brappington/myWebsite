@@ -1,2 +1,4 @@
 # myWebsite
-My personal website
+My personal website - a work in progress
+
+https://brappington.github.io/myWebsite/
