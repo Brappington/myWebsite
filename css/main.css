@@ -4,11 +4,20 @@
     src: url(fonts/Inter/Inter-Regular.woff);
 }
 
+:root {
+  --bgColor: #282a36;
+  --textColor: #f8f8f2;
+  --headingColor: #50fa7b;
+  --titleFont: "myFont";
+  --regularFont: "myFont";
+}
+
+
 body {
-    background-color: #282a36;
-    color: #f8f8f2;
+    background-color:var(--bgColor);
+    color: var(--textColor);
     font-weight: 400;
-    font-family: "myFont";
+    font-family: var(--regularFont);
 }
 .container {
     max-width:800px;
