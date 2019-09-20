@@ -8,6 +8,11 @@
   --textColor: #f8f8f2;
   --headingColor: #50fa7b;
   --accentColor: #8be9fd;
+  --pinkColor: #ff79c6;
+  --orangeColor: #ffb86c;
+  --purpleColor: #bd93f9;
+  --redColor: #ff5555;
+  --yellowColor:  #f1fa8c;
   --titleFont: "myFont";
   --regularFont: "myFont";
 }
@@ -19,14 +24,21 @@ body {
   font-family: var(--regularFont);
 }
 
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+}
 
 h2 {
   color: var(--headingColor);
 }
 
-.container {
-  max-width: 800px;
-  margin: 60px auto;
+h3 {
+  color: var(--pinkColor);
+}
+
+h4 {
+  color: var(--purpleColor);
 }
 
 header h2 {
@@ -78,9 +90,7 @@ section {
   text-align: center;
 }
 
-h2 {
-  color: var(--headingColor);
-}
+
 
 
 /* Heading rainbow letters */
@@ -103,22 +113,22 @@ h2 {
 
 .rainbow-letters span:nth-child(10n + 1),
 .red {
-  color: #ff5555;
+  color: var(--redColor);
 }
 
 .rainbow-letters span:nth-child(10n + 2),
 .purple {
-  color: #bd93f9;
+  color: var(--purpleColor);
 }
 
 .rainbow-letters span:nth-child(10n + 3),
 .dark-purple {
-  color: #ff79c6;
+  color: var(--pinkColor);
 }
 
 .rainbow-letters span:nth-child(10n + 4),
 .blue {
-  color: #8be9fd;
+  color: var(--accentColor);
 }
 
 .rainbow-letters span:nth-child(10n + 5),
@@ -128,27 +138,27 @@ h2 {
 
 .rainbow-letters span:nth-child(10n + 6),
 .light-blue {
-  color: #ffb86c;
+  color: var(--orangeColor);
 }
 
 .rainbow-letters span:nth-child(10n + 7),
 .green {
-  color: #f1fa8c;
+  color: var(--yellowColor);
 }
 
 .rainbow-letters span:nth-child(10n + 8),
 .yellow {
-  color: #8be9fd;
+  color: var(--accentColor);
 }
 
 .rainbow-letters span:nth-child(10n + 9),
 .pink {
-  color: #ff79c6;
+  color: var(--pinkColor);
 }
 
 .rainbow-letters span:nth-child(10n + 10),
 .orange {
-  color: #bd93f9;
+  color: var(--purpleColor);
 }
 
 
