@@ -68,14 +68,13 @@ section {
   margin: 30px;
 }
 
-.projects a {
+a {
   color: var(--accentColor);
 }
 
 .cv a {
   display: block;
   text-decoration: underline;
-  color: var(--accentColor);
   margin-top: 6px;
 }
 
@@ -83,7 +82,6 @@ section {
   font-size: 25px;
   padding: 0px 8px;
   text-decoration: none;
-  color: var(--accentColor);
 }
 
 .social-footer {
