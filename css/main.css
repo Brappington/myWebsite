@@ -88,8 +88,18 @@ a {
   text-align: center;
 }
 
+.about p a img {display:none;}
 
+.about p a:hover img {display:block;}
 
+.picture img{
+  border-radius: 8px;
+  max-width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Heading rainbow letters */
 .rainbow-letters {
