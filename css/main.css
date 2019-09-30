@@ -92,10 +92,9 @@ a {
 
 .about p a:hover img {display:block;}
 
-.picture img{
-  border-radius: 8px;
-  max-width: 50%;
-  height: auto;
+.avatar{
+  width: 50%;
+  border-radius: 5%;
   display: block;
   margin-left: auto;
   margin-right: auto;
