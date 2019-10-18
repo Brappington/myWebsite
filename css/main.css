@@ -172,6 +172,10 @@ a {
     font-size: 38px;
   }
 
+  .big-space {
+    padding: 6px;
+  }
+
   section {
     margin: 10px;
   }
